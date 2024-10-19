@@ -7,6 +7,7 @@
 
 const switchBtn = document.querySelector('.switch-btn');
 const video = document.querySelector('.video-container');
+const preLoader = document.querySelector('.preloader');
 
 // aggancio un ascoltatore di eventi al bottone
 
