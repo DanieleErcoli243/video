@@ -7,7 +7,7 @@
 
 const switchBtn = document.querySelector('.switch-btn');
 const video = document.querySelector('.video-container');
-const preLoader = document.querySelector('.preloader');
+const preloader = document.querySelector('.preloader');
 
 // aggancio un ascoltatore di eventi al bottone
 
@@ -25,5 +25,5 @@ switchBtn.addEventListener('click', () => {
 // aggancio un ascoltatore di eventi alla finestra per disattivare il preloader
 
 window.addEventListener('load', () => {
-
+    preloader.classList.add('hide-preloader');
 });
