@@ -12,7 +12,7 @@ const video = document.querySelector('.video-container');
 
 switchBtn.addEventListener('click', () => {
     // stabilisco le condizioni per mettere o togliere la classe slide
-    if (!switchBtn.classList.contains('switch')) {
+    if (!switchBtn.classList.contains('slide')) {
         switchBtn.classList.add('slide');
     } else {
         switchBtn.classList.remove('slide');
