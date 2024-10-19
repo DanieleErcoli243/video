@@ -21,3 +21,9 @@ switchBtn.addEventListener('click', () => {
         video.play();
     };
 });
+
+// aggancio un ascoltatore di eventi alla finestra per disattivare il preloader
+
+window.addEventListener('load', () => {
+
+});
