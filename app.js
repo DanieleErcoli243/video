@@ -11,5 +11,10 @@ const video = document.querySelector('.video-container');
 // aggancio un ascoltatore di eventi al bottone
 
 switchBtn.addEventListener('click', () => {
-
+    // stabilisco le condizioni per mettere o togliere la classe slide
+    if (!switchBtn.classList.contains('switch')) {
+        switchBtn.classList.add('slide');
+    } else {
+        switchBtn.classList.remove('slide');
+    };
 });
