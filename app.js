@@ -14,7 +14,9 @@ switchBtn.addEventListener('click', () => {
     // stabilisco le condizioni per mettere o togliere la classe slide
     if (!switchBtn.classList.contains('slide')) {
         switchBtn.classList.add('slide');
+        video.pause();
     } else {
         switchBtn.classList.remove('slide');
+        video.play();
     };
 });
