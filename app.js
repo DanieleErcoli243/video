@@ -8,3 +8,8 @@
 const switchBtn = document.querySelector('.switch-btn');
 const video = document.querySelector('.video-container');
 
+// aggancio un ascoltatore di eventi al bottone
+
+switchBtn.addEventListener('click', () => {
+
+});
